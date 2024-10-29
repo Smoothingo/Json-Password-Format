@@ -4,4 +4,4 @@
 
 # ## Usage
 
-# pip install reportlab and dont forget to change destination path in the code at line 12.
+# "pip install reportlab" and dont forget to change destination path in the code at line 12.
