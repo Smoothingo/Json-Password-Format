@@ -9,7 +9,7 @@ with open("data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Create PDF with zero margins
-pdf_file = r"C:\Users\Smoothingo\Downloads\p_output.pdf"
+pdf_file = r"C:\Users\Smoothingo\Downloads\p_output.pdf"    # Change this path to your desired output path
 pdf = SimpleDocTemplate(pdf_file, pagesize=A4, rightMargin=0, leftMargin=0, topMargin=0, bottomMargin=0)
 elements = []
 
